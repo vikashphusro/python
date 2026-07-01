@@ -1,26 +1,12 @@
-# HelloList.py
-# Simple example showing common list operations in Python
+list1 = ["apple", "banana", "cherry"]
+list2 = [1, 5, 7, 9, 3]
+list3 = [True, False, False]
 
-fruits = ["apple", "banana", "cherry"]
-print("Initial list:", fruits)
+list = list1 + list2 + list3
+print(list[4::1])
 
-# Add items
-fruits.append("dragonfruit")
-print("After append:", fruits)
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[:4])
 
-fruits.insert(1, "blueberry")
-print("After insert at index 1:", fruits)
-
-more_fruits = ["elderberry", "fig"]
-fruits.extend(more_fruits)
-print("After extend:", fruits)
-
-# Delete items
-fruits.remove("banana")  # remove by value
-print("After remove banana:", fruits)
-
-popped = fruits.pop()  # remove last item
-print("After pop():", fruits)
-print("Popped item:", popped)
-
-
+if "appleqq" in thislist :
+    print("apple presant in lisy")
